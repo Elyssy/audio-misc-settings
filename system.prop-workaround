@@ -1,4 +1,4 @@
-ro.config.media_vol_steps=100
+ro.config.media_vol_steps=30
 audio.safemedia.bypass=true
 ro.audio.ignore_effects=true
 ro.audio.spatializer_enabled=false

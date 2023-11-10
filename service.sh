@@ -1,7 +1,7 @@
 #!/system/bin/sh
 
 # sleep 31 secs needed for "settings" commands to become effective
-# and make volume medial steps to be 100 if a volume steps facility is used
+# and make volume medial steps to be 30 if a volume steps facility is used
 
 function which_resetprop_command()
 {
@@ -77,7 +77,7 @@ function additionalSettings()
         fi
         
     fi
-    settings put system volume_steps_music 100
+    settings put system volume_steps_music 30
 }
 
 (((sleep 31; additionalSettings)  0<&- &>"/dev/null" &) &)

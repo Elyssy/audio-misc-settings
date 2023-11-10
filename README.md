@@ -2,7 +2,7 @@
 
 This module,
 <ol>
-    <li>changes the number of steps in media volume to 100 steps (0.4~0.7dB per step),</li>
+    <li>changes the number of steps in media volume to 30 steps (1.3~2.4dB per step),</li>
     <li>raises the resampling quality of the Android OS mixer (AudioFlinger) to a very mastering quality (i.e., no resampling distortion in a real sense),</li>
     <li>disables the effects framework of the mixer (to interface to equalizers, virtualizers, visualizers, echo cancelers, automatic gain controls, etc.) for obtaining a nearly direct low jitter audio pass (very few vulnerable equalizers may crash without this framework, but please ignore it),</li>
     <li>disables the android built-in spatial audio feature (A13 or higher; especially Tensor devices) for obtaining a nearly direct low jitter audio pass too,</li>
